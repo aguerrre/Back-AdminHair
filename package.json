@@ -1,0 +1,31 @@
+{
+  "name": "adminhair",
+  "version": "1.0.0",
+  "description": "Backend of AdminHair system for hairstylist.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguerrre/Back-AdminHair.git"
+  },
+  "keywords": [
+    "admin",
+    "hairstylist",
+    "backend",
+    "api",
+    "apirest"
+  ],
+  "author": "aguerrre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguerrre/Back-AdminHair/issues"
+  },
+  "homepage": "https://github.com/aguerrre/Back-AdminHair#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3"
+  }
+}
